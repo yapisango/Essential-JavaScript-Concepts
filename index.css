@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: whitesmoke;
+}
+
+/*
+Challenge:
+1. Get this layout looking like the 
+   screenshots on the slide.
+*/ 
+nav {
+    color: whitesmoke;
+    background-color: #282828;
+} 
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 25px;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-icon1,
+.nav-icon2 {
+    width: 25px;
+}
+
+.image {
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+.item {
+    position: relative;
+}
+
+.item-img {
+    width: 100%;
+    display: block;
+}
+
+.item-img-banner {
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.caption {
+    margin: 0 25px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn {
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: auto;
+}
+
+.chatbox-bg {
+    background-color: #dda51e;
+    bottom: 6px;
+    right: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+    position: fixed;
+    
+}
+
+.chatbox-img {
+    margin: auto;
+    width: 50%;
+}
+
